@@ -127,7 +127,7 @@ export default function Dashboard() {
               <div className="bg-gradient-to-br from-blue-500 to-indigo-600 p-3 rounded-2xl">
                 <Car className="w-8 h-8 text-white" />
               </div>
-              <h1 className="text-3xl font-bold">Manuticar</h1>
+              <h1 className="text-3xl font-bold">ManutCar</h1>
             </div>
             <Button variant="outline" onClick={handleLogout}>
               Sair
@@ -166,7 +166,7 @@ export default function Dashboard() {
               <Car className="w-8 h-8 text-white" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold">Manuticar</h1>
+              <h1 className="text-3xl font-bold">ManutCar</h1>
               <p className="text-sm text-gray-600">
                 {selectedVehicle.apelido || `${selectedVehicle.custom_make || ''} ${selectedVehicle.custom_model || ''}`}
               </p>

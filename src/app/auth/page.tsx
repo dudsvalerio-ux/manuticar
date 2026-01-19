@@ -54,7 +54,7 @@ export default function AuthPage() {
               <Car className="w-8 h-8 text-white" />
             </div>
           </div>
-          <CardTitle className="text-2xl font-bold">Manuticar</CardTitle>
+          <CardTitle className="text-2xl font-bold">ManutCar</CardTitle>
           <CardDescription>
             {isLogin ? 'Entre na sua conta' : 'Crie sua conta'}
           </CardDescription>

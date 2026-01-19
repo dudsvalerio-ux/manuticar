@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Manuticar - Controle de Manutenção Automotiva",
+  title: "ManutCar - Controle de Manutenção Automotiva",
   description: "Controle inteligente de manutenção preventiva do seu veículo",
 };
 
